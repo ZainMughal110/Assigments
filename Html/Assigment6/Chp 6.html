@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Forms</title>
+</head>
+<body>
+    <form action="Thankyou.html" target="_blank" method="post" align="center">
+<fieldset>
+    <legend>User Info</legend>
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="username" size="15" maxlength="15" minlength="3" placeholder="Enter Full Name" required><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="Useremail" size="20" maxlength="30" minlength="10" placeholder="Enter Email" required><br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="Password" size="15" maxlength="15" minlength="8" placeholder="Enter Password" required><br><br>
+<label for="FeedBack">Feedback:</label>
+<textarea id="FeedBack" name="Feedback" cols="30" rows="5" maxlength="100" minlength="10" placeholder="Write your feedback here"  required></textarea><br><br>
+<label>Stay logged In:</label><br>
+
+<label for="login">Yes</label>
+<input type="radio" id="login" name="Save" value="login"required>
+<label for="Nologin">No</label>
+<input type="radio" id="Nologin" name="Save" value="Nologin"required><br><br>
+<label for="country">Select your Country:</label>
+<select id="country" name="country" required>
+    <option value="" selected disabled>Select</option>
+    <option value="Pakistan">Pakistan</option>
+    <option value="Dubai">Dubai</option>
+    <option value="India">India</option>
+    <option value="China">China</option>
+</select><br><br>
+<label>Gender:</label>
+<label for="male">Male:</label>
+<input type="radio" id="male" name="Gender" value="male" required>
+<label for="female">Female:</label>
+<input type="radio" id="female" name="Gender" value="female"required><br><br>
+<input type="submit" value="Submit Form">
+
+
+</fieldset>
+    </form> 
+</body>
+</html>
